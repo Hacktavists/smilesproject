@@ -2,11 +2,15 @@ import React from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 import "./App.css";
 import Homepage from "./components/Homepage";
+import Navbar from './components/Navbar'
 import AssistanceForm from "./components/forms/AssistanceForm";
 import Checkboxes from "./components/Checkboxes";
 
 const App = () => {
   return (
+
+    <>
+    <Navbar />
     <BrowserRouter>
       <div className="App">
         <Route path="/" component={Homepage} />
@@ -14,6 +18,7 @@ const App = () => {
         <Route path="/AssistanceForm" component={AssistanceForm} />
       </div>
     </BrowserRouter>
+    </>
   );
 };
 
