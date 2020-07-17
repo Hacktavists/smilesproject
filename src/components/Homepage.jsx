@@ -4,7 +4,6 @@ import Navbar from "./Navbar";
 
 const Homepage = () => {
     return (
-        <div>${Navbar}</div>
         <div className="hp-main">
             <div className="top-hp"> 
             <img 
