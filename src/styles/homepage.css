@@ -27,8 +27,7 @@
 }
 
 .top-hp p {
-    text-align: center;
-    height: 63px;
+  height: 63px;
   width: 359px;
   color: #22272E;
   font-family: Raleway;
@@ -49,12 +48,13 @@
     color: white;
     margin: 20px;
     border: 2px solid #0D2389;
+    font-size: 18px;
+    font-weight: 700;
 }
 
 .hp-img img{
     width: 350px;
     height: 200px;
-    border: 5px solid blue;
 }
 
 .hp-info {
