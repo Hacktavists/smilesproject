@@ -1,7 +1,9 @@
 import React from "react";
 import "../styles/homepage.css";
+import { BrowserHistory} from 'react-router'
 
 const Homepage = () => {
+ 
   return (
     <div className="hp-main">
       <div className="top-hp">
@@ -15,7 +17,7 @@ const Homepage = () => {
       </div>
 
       <div className="assistance">
-       <a href="/Checkboxes"> <button>I need assistance</button>
+       <a href="/Checkboxes"> <button  >I need assistance</button>
       </a>
       </div>
       <div className="hp-img">
