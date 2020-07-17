@@ -3,14 +3,10 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
-import Homepage from "./components/Homepage";
-import Checkboxes from "./components/Checkboxes";
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <Homepage />
-    <Checkboxes />
   </React.StrictMode>,
   document.getElementById("root")
 );
