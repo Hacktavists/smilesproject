@@ -8,11 +8,7 @@ const ThankYou = () => {
   return (
     <div>
       <div>
-        <img
-          className="pagination"
-          src={Page3}
-          alt="Image of Pagination Icon"
-        />
+        <img className="pagination" src={Page3} alt="Pagination Icon" />
       </div>
       <div>
         <img src={Handshake} alt="Handshake" />
