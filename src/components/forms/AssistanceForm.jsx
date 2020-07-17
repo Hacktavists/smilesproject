@@ -5,6 +5,12 @@ const AssistanceForm = () => {
   return (
     <div className="page-title">
       <h1 className="title">Assistance Form</h1>
+      <p classname="form-inst" alt="form instructions">
+        Please fill form out completely.
+      </p>
+      <p classname="form-inst" alt="form instructions">
+        We will contact you as soon as we can.
+      </p>
       <form class="cf" action="https://formspree.io/xbjzpwoa">
         <div class="assistance-form">
           <label for="name" className="form-label">
@@ -15,7 +21,9 @@ const AssistanceForm = () => {
             E-Mail Address
           </label>
           <input type="email" className="input-form" placeholder="Email" />
-          <label for="phone-number">Phone Number</label>
+          <label for="phone-number" className="form-label">
+            Phone Number
+          </label>
           <input
             type="number"
             className="input-form"
