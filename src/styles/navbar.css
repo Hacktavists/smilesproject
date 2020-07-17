@@ -20,6 +20,11 @@
     height: 50px;
 }
 
+.donate-btn img {
+    height: 50px;
+    width: 80px;
+}
+
 .hamb-menu {
     border: 1px solid red;
     width: 80px;
