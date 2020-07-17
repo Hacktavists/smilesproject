@@ -8,7 +8,7 @@ const AssistanceForm = () => {
       <form class="cf" action="https://formspree.io/xbjzpwoa">
         <div class="assistance-form">
           <label for="name" className="form-label">
-            Name:
+            Name
           </label>
           <input type="text" className="input-form" placeholder="Name" />
           <label for="email" className="form-label">
