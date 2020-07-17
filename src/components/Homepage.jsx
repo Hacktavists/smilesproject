@@ -16,7 +16,7 @@ const Homepage = () => {
                  have become hard for everyone and we are trying to 
                  offer some help to those in need.</p>
             </div>
-            <hr />
+           
             <div className="assistance"> 
                 <button>
                     I need assistance
@@ -30,11 +30,13 @@ const Homepage = () => {
              </div>
             <div className="hp-info"> 
                 <h2>
-                    About us
+                    Solidarity Not Charity
                 </h2>
-                <p> The Smile Trust, Inc. is an International Nonprofit Organization that Fights
-                     against homelessness and works toward fixing food insecurities.  
-                     </p>
+                <p> We understand that these are hard times.
+                     However, as a community, we can help each other get through this.
+                      The Smile Trust, Inc has created a
+                     mutual aid fund to offer food & supply  
+                     to families and individuals in need.  </p>
             </div>
             <div className="hp-img">
                 <img 
@@ -43,22 +45,32 @@ const Homepage = () => {
                   </div>
             <div className="hp-info"> 
                 <h2>
-                    What we do
+                    Who Qualifies?
                 </h2>
-                <p> Since February 2014, The Smile Trust formerly known as (Make the Homeless Smile)
-                     has served over 100,000 meals between Miami, FL and Atlanta, GA.</p>
+                <p> Families in need who reside in Miami-Dade and Atlanta.
+                     Mothers who have children under the age of two years old. 
+                     Once we will receive your request, we will contact you and 
+                     explain all the details. 
+                  </p>
             </div>
             <div className="hp-img">
-                 image
+                 <img src="https://i.imgur.com/nJBTcxR.png"
+                 alt="Cartoon of the people helping the world"
+                 />
                   </div>
             <div className="hp-info"> 
                 <h2>
-                    community emergency center
+                    Can I Help?
                 </h2>
-                <p> We have an obligation to ensure that the population we service feels welcomed 
-                    and understands that a lack of
-                     physical address does not negate their dignity as a human being. </p>
-            </div>
+                <p>
+                If you currently do not need assistance and
+                 you would like to help those who do,
+                 please donate to The Smile Trust, Inc at www.mthsmile.com/donate.
+                  If you would like to sponsor an individual or a family
+                   please email us at mthsmia@gmail.com. The more money we raise,
+                 the more community members we can serve and assist during difficult time.
+                   </p> 
+                     </div>
         </div>
     )
 }
