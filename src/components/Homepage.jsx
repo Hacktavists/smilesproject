@@ -15,7 +15,8 @@ const Homepage = () => {
       </div>
 
       <div className="assistance">
-        <button>I need assistance</button>
+       <a href="/Checkboxes"> <button>I need assistance</button>
+      </a>
       </div>
       <div className="hp-img">
         <img

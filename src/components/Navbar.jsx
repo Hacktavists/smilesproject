@@ -1,11 +1,11 @@
-import React from "react";
-import "../styles/navbar.css";
+import React from 'react'
+import '../styles/navbar.css'
 
 const Navbar = () => {
     return (
         <div className="navbar">
             <div className="logo"> 
-            <a href="#">
+            <a href="/">
                 <img 
                 src="https://i.imgur.com/7bs4i1k.png"
                 alt="smile trust logo"
@@ -16,13 +16,13 @@ const Navbar = () => {
                 <button>DONATE</button>
                  </a>
                 </div>
-            <div className="hamb-menu"> 
+            {/* <div className="hamb-menu"> 
             <button className="hamburger" id="hamburger">
-
+                <i class="fas fa-bars"></i>
             </button>
-            </div>
+            </div> */}
         </div>
-    );
-};
+    )
+}
 
-export default Navbar;
+export default Navbar
