@@ -1,0 +1,43 @@
+.ThankYou {
+  font-size: 32px;
+}
+
+.request {
+  font-size: 16px;
+  padding-bottom: 40px;
+}
+
+.contactus {
+  font-size: 28px;
+  text-decoration-style: double;
+  font-weight: bolder;
+}
+
+.contactinfo {
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.pagination {
+  padding-bottom: 50px;
+}
+
+.blueimg {
+  position: relative;
+}
+
+.reviveText {
+  position: relative;
+  text-align: center;
+}
+
+.smile {
+  font-weight: 550;
+}
+
+.city {
+  font-weight: 550;
+}
