@@ -1,7 +1,7 @@
 import React from "react";
 import "./AssistanceForm.css";
 
-const AssistanceForm = () => {
+function AssistanceForm() {
   return (
     <div className="page-title">
       <h1 className="title">Assistance Form</h1>
@@ -58,5 +58,5 @@ const AssistanceForm = () => {
       </form>
     </div>
   );
-};
+}
 export default AssistanceForm;
