@@ -1,15 +1,9 @@
-import React from 'react';
-import './App.css';
-import Navbar from './components/Navbar'
-import Homepage from './components/Homepage';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
-  return (
-    <div className="App">
-   <Navbar />
-   <Homepage />
-    </div>
-  );
+  return <div className="App">Hello</div>;
 }
 
 export default App;
