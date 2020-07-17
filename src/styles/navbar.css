@@ -34,5 +34,16 @@
     line-height: 16px;
     border-radius: 35px;
     margin-top: 10px;
+    text-transform: uppercase;
 }
 
+.hamb-menu {
+    margin-top: 14px;
+    margin-right: 16px;
+
+}
+
+.hamb-menu img {
+    width: 30px;
+    height: 20px;
+}

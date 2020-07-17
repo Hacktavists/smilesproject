@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/homepage.css";
-import { BrowserHistory} from 'react-router'
 
 const Homepage = () => {
  
@@ -12,7 +11,7 @@ const Homepage = () => {
         <p>
           {" "}
           In the face of COVID-19, we understand that things have become hard
-          for everyone and we are trying to offer some help to those in need.
+          for everyone and we are trying to offer help to those in need.
         </p>
       </div>
 
@@ -30,7 +29,7 @@ const Homepage = () => {
         <h2>Solidarity Not Charity</h2>
         <p>
           {" "}
-          We understand that these are hard times. However, as a community, we
+          We understand that these are hard times. As a community, we
           can help each other get through this. The Smile Trust, Inc has created
           a mutual aid fund to offer food & supply to families and individuals
           in need.{" "}
@@ -63,9 +62,7 @@ const Homepage = () => {
           If you currently do not need assistance and you would like to help
           those who do, please donate to The Smile Trust, Inc at
           www.mthsmile.com/donate. If you would like to sponsor an individual or
-          a family please email us at mthsmia@gmail.com. The more money we
-          raise, the more community members we can serve and assist during
-          difficult time.
+          a family please email us at mthsmia@gmail.com.
         </p>
       </div>
     </div>

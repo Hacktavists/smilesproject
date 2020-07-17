@@ -17,23 +17,27 @@
 .top-hp h1 {
     position: absolute;
     top: 200px;
-    right: 0;
+    right: 16px;
     height: 126px;
     width: 130px;
     color: #FFFFFF;
     font-size: 36px;
     letter-spacing: 0.39px;
     line-height: 42px;
+    text-transform: uppercase;
 }
 
 .top-hp p {
   height: 63px;
-  width: 359px;
+  width: 90%;
   color: #22272E;
   font-family: Raleway;
   font-size: 16px;
   letter-spacing: 0.27px;
   line-height: 21px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .assistance {
@@ -50,6 +54,7 @@
     border: 2px solid #0D2389;
     font-size: 18px;
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 .hp-img img{
@@ -59,9 +64,12 @@
 
 .hp-info {
     text-align: center;
+    
 }
 
 .hp-info p {
-    text-align: center;
-    width: auto;
+    text-align: left;
+    width: 90%;
+    margin-left: auto;
+  margin-right: auto;
 }
