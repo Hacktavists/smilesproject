@@ -12,5 +12,6 @@ function App() {
       <AssistanceForm />
     </div>
   );
-  
+}
+
 export default App;
