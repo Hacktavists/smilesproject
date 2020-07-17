@@ -55,13 +55,12 @@ function AssistanceForm() {
           </label>
           <input type="text" className="input-form" placeholder="City" />
         </div>
-        <input
-          href="/thankYou"
-          className="form-btn"
-          type="submit"
-          value="Submit"
-        />
       </form>
+      <a href="/ThankYou">
+        <button className="form-btn" type="submit" value="Submit">
+          Submit
+        </button>
+      </a>
     </div>
   );
 }
