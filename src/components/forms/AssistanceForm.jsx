@@ -5,13 +5,14 @@ function AssistanceForm() {
   return (
     <div className="page-title">
       <h1 className="title">Assistance Form</h1>
-      <p classname="form-inst" alt="form instructions">
+      <p className="form-inst" alt="form instructions">
         Please fill form out completely.
       </p>
-      <p classname="form-inst" alt="form instructions">
+      <p className="form-inst" alt="form instructions">
         We will contact you as soon as we can.
       </p>
-      <form class="cf" action="https://formspree.io/xbjzpwoa">
+      <form className="cf">
+        {/* <form className="cf" action="https://formspree.io/xbjzpwoa" method="POST"> */}
         <div class="assistance-form">
           <label for="name" className="form-label">
             Name
@@ -54,7 +55,12 @@ function AssistanceForm() {
           </label>
           <input type="text" className="input-form" placeholder="City" />
         </div>
-        <input className="form-btn" type="submit" value="Submit" />
+        <input
+          href="/thankYou"
+          className="form-btn"
+          type="submit"
+          value="Submit"
+        />
       </form>
     </div>
   );
