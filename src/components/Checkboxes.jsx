@@ -48,7 +48,7 @@ function Checkboxes() {
         </div>
 
         <div>
-          <a href="/Form">
+          <a href="/AssistanceForm">
             <img className="next-button" src={NextButton} alt="next button" />
           </a>
         </div>
