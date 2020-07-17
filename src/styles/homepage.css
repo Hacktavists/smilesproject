@@ -1,12 +1,40 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
 .hp-main {
     text-align: center;
     margin: auto;
     height: 100%;
 }
 
-.hp-main img {
-    width: 400px;
-    height: 200px;
+.top-hp img {
+    width: 380px;
+    height: 310px;
+    position: relative;
+}
+
+.top-hp h1 {
+    position: absolute;
+    top: 200px;
+    right: 0;
+    height: 126px;
+    width: 130px;
+    color: #FFFFFF;
+    font-size: 36px;
+    letter-spacing: 0.39px;
+    line-height: 42px;
+}
+
+.top-hp p {
+    text-align: center;
+    height: 63px;
+  width: 359px;
+  color: #22272E;
+  font-family: Raleway;
+  font-size: 16px;
+  letter-spacing: 0.27px;
+  line-height: 21px;
 }
 
 .assistance {
@@ -14,20 +42,13 @@
 }
 
 .assistance button {
-    box-shadow: 0px 1px 0px 0px #f0f7fa;
-	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
-	background-color:#0D2389;
-	border-radius:6px;
-	border:1px solid #0D2389;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:15px;
-	font-weight:bold;
-	padding:6px 24px;
-	text-decoration:none;
-	text-shadow:0px -1px 0px #5b6178;
+    height: 56px;
+    width: 340px;
+    border-radius: 35px;
+    background-color: #0D2389;
+    color: white;
+    margin: 20px;
+    border: 2px solid #0D2389;
 }
 
 .hp-img img{

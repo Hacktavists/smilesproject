@@ -4,12 +4,17 @@ import '../styles/homepage.css'
 const Homepage = () => {
     return (
         <div className="hp-main">
-            <div className="main-hp"> 
+            <div className="top-hp"> 
             <img 
             src="https://i.imgur.com/yiOxVwl.png"
-            alt="info"
+            alt="info" 
             />
-            
+            <h1>
+                The Smile Trust
+            </h1>
+            <p> In the face of COVID-19, we understand that things
+                 have become hard for everyone and we are trying to 
+                 offer some help to those in need.</p>
             </div>
             <hr />
             <div className="assistance"> 
