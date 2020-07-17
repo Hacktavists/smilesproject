@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+.module-container {
+  border: 3px solid orange;
+  border-radius: 20px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.next-button {
+  width: 85%;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+.heart-image {
+  height: 60px;
+  width: 60px;
+}
+
+.card-image {
+  height: 150px;
+  width: 150px;
+}
