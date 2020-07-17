@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <div className="navbar">
             <div className="logo"> 
-            <a href="#">
+            <a href="/">
                 <img 
                 src="https://i.imgur.com/7bs4i1k.png"
                 alt="smile trust logo"
