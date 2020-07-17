@@ -14,26 +14,32 @@ function Checkboxes() {
       <div className="page-counter"> {Page1}</div>
       <div>
         <div className="module-container" alt="fresh food">
-          <p className="card-title">Fresh Food</p> {FilledHeart}
-          {Food}
+          <p className="card-title">Fresh Food</p>
+          <div className="card-image">
+            <img src={FilledHeart} alt="filled heart" />
+            <img src={Food} alt="food" />
+          </div>
         </div>
         <div className="module-container" alt="Clothing and shoes">
-          <p className="card-title">
-            Clothing And Shoes{EmptyHeart}
-            {Clothes}
-          </p>
+          <p className="card-title">Clothing And Shoes</p>
+          <div className="card-image">
+            <img src={EmptyHeart} alt="empty heart" />
+            <img src={Clothes} alt="clothes" />
+          </div>
         </div>
         <div className="module-container" alt="Personal Hygiene">
-          <p className="card-title">
-            Personal Hygiene Products{EmptyHeart}
-            {Hygiene}
-          </p>
+          <p className="card-title">Personal Hygiene Products</p>
+          <div className="card-image">
+            <img src={EmptyHeart} alt="empty heart" />
+            <img src={Hygiene} alt="hygiene" />
+          </div>
         </div>
         <div className="module-container" alt="Love and Support">
-          <p className="card-title">
-            Love and Support{FilledHeart}
-            {Love}
-          </p>
+          <p className="card-title">Love and Support</p>
+          <div className="card-image">
+            <img src={FilledHeart} alt="filled heart" />
+            <img src={Love} alt="love and support" />
+          </div>
         </div>
 
         <div>
