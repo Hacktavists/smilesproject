@@ -1,8 +1,10 @@
-import React from 'react'
-import '../styles/homepage.css'
+import React from 'react';
+import '../styles/homepage.css';
+import Navbar from "./Navbar";
 
 const Homepage = () => {
     return (
+        <div>${Navbar}</div>
         <div className="hp-main">
             <div className="top-hp"> 
             <img 
@@ -63,4 +65,5 @@ const Homepage = () => {
     )
 }
 
-export default Homepage
+
+export default Homepage;
